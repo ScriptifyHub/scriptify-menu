@@ -1,3 +1,5 @@
 return {
-  message1 = 'message 1 lol'
+  Error = '[SCRIPTIFY HUB ERROR] - ',
+  UnAuthorized = '[SCRIPTIFY HUB UNAUTHORIZED] - ',
+  Warning = '[SCRIPTIFY HUB WARNING] - '
 }
