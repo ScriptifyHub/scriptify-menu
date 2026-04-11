@@ -4,6 +4,7 @@ local HttpService = game:GetService("HttpService")
 local Lib = {}
 
 function Lib.test()
+    return 'yes'
 end
 
 --// Format numbers to have commas where they should be
