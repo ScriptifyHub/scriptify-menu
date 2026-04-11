@@ -1,8 +1,14 @@
-local Functions = {}
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-function Functions.claimAllPlaytime()
+local Lib = {}
+
+function Lib.test()
+    print('works')
+end
+
+function Lib.claimAllPlaytime()
     local success, RemoteFunction = pcall(function()
-        return game:GetService("ReplicatedStorage").Shared.Framework.Network.Remote.RemoteFunction
+        return ReplicatedStorage.Shared.Framework.Network.Remote.RemoteFunction
     end)
 
     if not success or not RemoteFunction then
