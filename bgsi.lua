@@ -28,4 +28,4 @@ end
 claimAllPlaytime()
 end
 
-return Functions
+return Lib
