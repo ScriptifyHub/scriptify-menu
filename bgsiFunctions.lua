@@ -39,7 +39,7 @@ function Lib.createWindow(UserInterface)
 end
 
 --// Notify a user with Rayfield UI
-function Lib.notifyUser(UserInterface, title, content, duration image)
+function Lib.notifyUser(UserInterface, title, content, duration, image)
     UserInterface:Notify({Title = title, Content = content, Duration = duration, Image = image})
 end
 
