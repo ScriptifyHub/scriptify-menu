@@ -2,6 +2,9 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Lib = {}
 
+function Lib.t()
+end
+
 function Lib.createWindow()
     local success, result = pcall(function()
         return UserInterface:CreateWindow({Name = 'Bubble Gum Simulator Infinity',Icon = 0,LoadingTitle = 'Thank you for chosing Scriptify.',LoadingSubtitle = 'Your menu should load shortly.',ShowText = 'ShowText test',Theme = 'Default',ToggleUIKeybind = 'K',DisableRayfieldPrompts = true,DisableBuildWarnings = false,ConfigurationSaving = {Enabled = true,FolderName = nil,FileName = 'Big Hub'},Discord = {Enabled = false,Invite = 'noinvitelink',RememberJoins = true},KeySystem = false,KeySettings = {Title = 'Key System Title',Subtitle = 'Subtitle',Note = 'No method of obtaining the key is listed.',FileName = 'Key',SaveKey = false,GrabKeyFromSite = false,Key = {'Hello1', 'Hello2'}}})
